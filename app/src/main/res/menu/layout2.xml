@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Xóa liện lạc"/>
+    <item
+        android:title="Xem chi tiết"/>
+    <item
+        android:title="Gọi điện thoại"/>
+    <item
+        android:title="Gửi tin nhắn"/>
+</menu>
