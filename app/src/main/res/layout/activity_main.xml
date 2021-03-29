@@ -7,20 +7,15 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/manhinh"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@android:color/holo_blue_bright"
-            android:textSize="40dp"
-            android:text="Sổ liên lạc" />
+
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/editHoten"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -29,11 +24,11 @@
             android:hint="Nhập họ tên" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/editSdt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textSize="30dp"
             android:hint="Nhập số điện thoại" />
 
@@ -46,29 +41,38 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/button7"
+                    android:id="@+id/btnXoaTrang"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Xóa trống" />
 
                 <Button
-                    android:id="@+id/button8"
+                    android:id="@+id/btnluuSQLite"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Lưu" />
 
                 <Button
-                    android:id="@+id/button9"
+                    android:id="@+id/btnTim"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Tìm" />
+
+
             </TableRow>
 
         </TableLayout>
 
         <ListView
+            android:id="@+id/listNote"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
 
 
     </LinearLayout>

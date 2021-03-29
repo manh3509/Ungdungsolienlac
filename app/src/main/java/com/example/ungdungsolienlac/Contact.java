@@ -33,10 +33,7 @@ public class Contact implements Serializable {
 
     @Override
     public String toString() {
-        return "Contact{" +
-                "hoTen='" + hoTen + '\'' +
-                ", soDT='" + soDT + '\'' +
-                '}';
+        return  hoTen + " - " + soDT;
     }
 
     @Override
@@ -44,8 +41,9 @@ public class Contact implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Contact contact = (Contact) o;
-        return hoTen.equals(contact.hoTen) &&
-                soDT.equals(contact.soDT);
+        if(hoTen!=null?!hoTen.equals(contact.hoTen):contact.hoTen!=null)
+            return false;
+        return soDT!=null?soDT.equals(contact.soDT):contact.soDT == null;
     }
 
     @Override

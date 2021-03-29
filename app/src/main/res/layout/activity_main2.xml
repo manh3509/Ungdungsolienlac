@@ -9,7 +9,7 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/editHoten"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -18,7 +18,7 @@
             android:hint="Tên" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName4"
+            android:id="@+id/editSdt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -35,13 +35,13 @@
                 android:layout_height="match_parent" >
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/btnCapNhat"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Cập nhật" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/btnKetThuc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Kết thúc" />
