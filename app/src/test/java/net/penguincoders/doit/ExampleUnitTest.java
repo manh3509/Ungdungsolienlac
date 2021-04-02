@@ -1,4 +1,4 @@
-package com.example.ungdungsolienlac;
+package net.penguincoders.doit;
 
 import org.junit.Test;
 
